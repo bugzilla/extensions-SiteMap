@@ -81,8 +81,8 @@ sub install_before_final_checks {
         print STDERR get_text('sitemap_no_urlbase'), "\n";
         return;
     }
-    if (Bugzilla->params->{'loginrequired'}) {
-        print STDERR get_text('sitemap_loginrequired'), "\n";
+    if (Bugzilla->params->{'requirelogin'}) {
+        print STDERR get_text('sitemap_requirelogin'), "\n";
         return;
     }
     $self->_fix_robots_txt();

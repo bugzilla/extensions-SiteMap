@@ -26,9 +26,9 @@
 [% ELSIF message_tag == "sitemap_pinging" %]
   Pinging search engines to let them know about our sitemap:
 
-[% ELSIF message_tag == "sitemap_loginrequired" %]
+[% ELSIF message_tag == "sitemap_requirelogin" %]
   Not updating search engines with your sitemap, because you have the
-  "loginrequired" parameter turned on, and so search engines will not be
+  "requirelogin" parameter turned on, and so search engines will not be
   able to access your sitemap.
 
 [% ELSIF message_tag == "sitemap_no_urlbase" %]
