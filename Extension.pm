@@ -23,7 +23,7 @@ package Bugzilla::Extension::Sitemap;
 use strict;
 use base qw(Bugzilla::Extension);
 
-our $VERSION = '0.01';
+our $VERSION = '1.0';
 
 use Bugzilla::Extension::Sitemap::Constants;
 use Bugzilla::Extension::Sitemap::Util;
